@@ -128,7 +128,7 @@ int main()
 	myfile<<"<tr> <td>"<<setprecision(2)<<x<<"</td><td>"<<std::fixed<<setprecision(2)<<value<<"</td>";
 	myfile<<std::fixed<<"<td>"<< setprecision(0)<<(ptr->advise(ptr,x))<<"</td>";
 	myfile<<std::fixed<<"<td>"<< setprecision(2)<<(ptr->advise_money(ptr,x))<<"</td></tr>";
-	myfile<<"\n";
+	myfile<<"\n"; 
 	cout<<"++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"<<endl;
 	}
 	myfile << "</body>";
