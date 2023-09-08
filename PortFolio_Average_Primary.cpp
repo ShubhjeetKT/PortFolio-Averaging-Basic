@@ -61,7 +61,7 @@ double A1::advise_money(A1 *t,double x)
         double value= t->p1-x1;
 	cout<<"So the average will be::"<<value<<endl;
         if(t->p2<value)
-        {
+        { 
       cout<<"Print  P2="<<t->p2<<"And Avg is ="<<value<<endl;
         double a= x*t->p1/100;
         return (t->p2)*(a*(t->q1)/((t->p1)-(t->p2)-a));
