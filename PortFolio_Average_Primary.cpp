@@ -2,7 +2,7 @@
 #include<fstream>
 #include<bits/stdc++.h>
 using namespace std;
-ofstream myfile; 
+ofstream myfile;  
 class A1
 {
 	double p2;//p2
